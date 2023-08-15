@@ -1,0 +1,309 @@
+/* Mobile */
+
+
+@media only screen and (max-width: 430px) {
+    :root {
+        --bg-color: #F8FAFC;
+    
+    }
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar{
+        width: 100vw;
+        height: 3rem;
+        display: flex;
+        flex-wrap:wrap;
+        margin-right: 1rem;
+    }
+    .op{
+        margin-left: 2rem;
+    }
+    .first{
+        background: url("static/images/Mask Group 1.png");
+        height: 30rem;
+        background-repeat: no-repeat;
+    }
+    .main_text{
+        width: 100vw;
+        font-size:1.8rem ;
+        position: absolute;
+        top: 15rem;
+        left: 1rem;
+    }
+    .sec_text{
+        width: 100vw;
+        font-size:medium;
+        position: absolute;
+        top: 22rem;
+        left: 1rem;
+    }
+    .cp_button{
+        position: relative;
+        top: 22rem;
+        left: 5.3rem;
+        z-index: 1000;
+    }
+    .second{
+        height: 70rem;
+    }
+    .wave {
+        position: absolute;
+        bottom: 15rem;
+        left: 0;
+        width: 100vw;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+    
+    .wave svg {
+        position: relative;
+        display: block;
+        width: calc(138% + 1.3px);
+        height: 232px;
+    }
+    .head_second_text{
+        position: relative;
+        top: -8.4rem;
+        left: 0;
+        background-color: var(--bg-color);
+    }
+    .card_container{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        /* padding: 0 0.5rem;/ */
+    }
+    .card{
+        margin-top: 2rem;
+        height: 15rem;
+        width: 10rem;
+        font-size: small;
+        text-align: center;
+        overflow-y: scroll;
+    }
+    .a{
+        align-self: flex-end;
+        margin-right: -2rem;
+    }
+    .head_text{
+        font-size: small;
+        margin-top: 1rem;
+    }
+    .bottom_second_text{
+        position: absolute;
+        top: 110rem;
+        left: 0;
+    }
+    .wave_bottom {
+        position: absolute;
+        top: 120.5rem;
+        left: 0;
+    }
+    .card_container_s3{
+        position: relative;
+        left: 4rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .text_s3{
+        text-align: center;
+    }
+    .bottom_third_text{
+        margin-top: 3rem;
+    }
+    .fourth{
+        font-size: small;
+    }
+    .side_card_container_left{
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    .mid{
+        width: 80vw;
+    }
+    .side_card_container_right{
+        margin-right: 0.5rem;
+        margin-top: 1rem;
+
+    }
+    .bottom_fourth_text{
+        margin-top: 5rem;
+    }
+    .container1{
+        height: 70vh;
+        /* background-color: red; */
+        width: 90vw;
+    }
+    .container2{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 283rem;
+        left: 4rem;
+        overflow-y: scroll;
+        height: 50vh;
+        width: 70vw;
+        border-radius: 2rem;
+        
+    }
+    .container2_card{
+        margin: 1rem 0;
+    }
+    .top_sixth_text{
+        margin-top: 5rem;
+    }
+    .end_logo_cards{
+        display: flex;
+        flex-direction: column  ;
+    }
+    footer{
+        height: 15rem;
+    }
+  }
+
+
+@media only screen and (min-width:430px)and ( max-width: 810px) {
+    .first{
+        background: url("static/images/Mask Group 1.png");
+        height: 30rem;
+        background-repeat: no-repeat;
+        background-origin: border-box;
+    }
+    .wave {
+        position: absolute;
+        bottom: 28rem;
+        left: 0;
+        width: 100vw;
+    }
+    .head_second_text{
+        position: relative;
+        top: -11rem;
+        padding-top: 3rem;
+        left: 0;
+        background-color: var(--bg-color);
+        height: 20rem;
+    }
+    .card_container{
+        width: 80vw;
+        margin-left: -2rem;
+        margin-top: 3rem;
+    }
+    .card{
+        width: 30%;
+        font-size: small;
+    }
+    .bottom_second_text{
+       position: absolute;
+       left: 2rem;
+       margin-top: 4rem;
+    }
+    .second{
+        height: 40rem;
+    }
+    .card_container_s3{
+        width: 90vw;
+        margin-left: -10.5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .card_s3{
+        width: 14rem;
+    }
+    .side_card_container_left{
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    .side_card_container_right{
+        margin-right: 0.5rem;
+        margin-top: 1rem;
+
+    }
+    .container2{
+        width: 90vw;
+        margin-top: 5rem;
+    }
+    .stars{
+        position:relative;
+        right: 2rem;
+    }
+  }
+
+
+
+
+
+  /* Tablet */
+
+
+
+
+  @media only screen and (min-width:430px)and ( max-width: 810px) {
+    .first{
+        background: url("static/images/Mask Group 1.png");
+        height: 30rem;
+        background-repeat: no-repeat;
+        background-origin: border-box;
+    }
+    .wave {
+        position: absolute;
+        bottom: 28rem;
+        left: 0;
+        width: 100vw;
+    }
+    .head_second_text{
+        position: relative;
+        top: -11rem;
+        padding-top: 3rem;
+        left: 0;
+        background-color: var(--bg-color);
+        height: 20rem;
+    }
+    .card_container{
+        width: 80vw;
+        margin-left: -2rem;
+        margin-top: 3rem;
+    }
+    .card{
+        width: 30%;
+        font-size: small;
+    }
+    .bottom_second_text{
+       position: absolute;
+       left: 2rem;
+       margin-top: 4rem;
+    }
+    .second{
+        height: 40rem;
+    }
+    .card_container_s3{
+        width: 90vw;
+        margin-left: -10.5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .card_s3{
+        width: 14rem;
+    }
+    .side_card_container_left{
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    .side_card_container_right{
+        margin-right: 0.5rem;
+        margin-top: 1rem;
+
+    }
+    .container2{
+        width: 90vw;
+        margin-top: 5rem;
+    }
+    .stars{
+        position:relative;
+        right: 2rem;
+    }
+  }
